@@ -18,13 +18,10 @@ import java.util.concurrent.CompletableFuture;
 @RestController
 @RequestMapping(path = "commands/account")
 public class AccountCommandController {
-
     private CommandGateway commandGateway;
     private EventStore eventStore;
-
     @RequestMapping("create")
     public CompletableFuture<String> createAccount(@RequestBody CreateAccountRequestDTO request){
-
     CompletableFuture<String> commandResponse = commandGateway.send(new CreateAccountCommand(
             UUID.randomUUID().toString(),
             request.getInitialBalance(),
