@@ -12,7 +12,6 @@ import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;
 import org.axonframework.modelling.command.AggregateLifecycle;
 import org.axonframework.spring.stereotype.Aggregate;
-
 @Aggregate
 public class AccountAggregate {
     @AggregateIdentifier
@@ -20,7 +19,6 @@ public class AccountAggregate {
     private  double balance;
     private String currency;
     private AccountStatus status;
-
     public AccountAggregate() {
     }
     @CommandHandler
