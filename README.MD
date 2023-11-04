@@ -1,7 +1,7 @@
 <h2 align="center"><💻 Event Driven Architecture CQRS and Event Sourcing 💻/></h2>
 <h5>- Architecture</h5>
 <img src="./Images/Screenshot_1.png" alt="Architecture a implémenter" width="700" style="border: 2px solid black;"/>
-<img src="./Images/Screenshot_1.png" alt="Architecture a implémenter" width="700" style="border: 2px solid black;"/>
+<img src="./Images/Screenshot_0.png" alt="Architecture a implémenter" width="700" style="border: 2px solid black;"/>
 <h5>- Dependencies</h5>
 
 <details>
