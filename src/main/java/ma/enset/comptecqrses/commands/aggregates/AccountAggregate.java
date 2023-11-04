@@ -42,7 +42,6 @@ public class AccountAggregate {
                 event.getId(),
                 AccountStatus.ACTIVATED
         ));
-
     }
     @EventSourcingHandler
     public void on(AccountActivatedEvent event){
@@ -72,11 +71,10 @@ public class AccountAggregate {
                 command.getAmount(),
                 command.getCurrency()
         ));
-
     }
     //fuction devolution
     @EventSourcingHandler
-    public void on(AccountDebitedEvent event){
+    public void on(AccountDebitedEvent event) {
         this.balance-=event.getAmount();
     }
 

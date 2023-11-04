@@ -31,7 +31,6 @@ public class AccountCommandController {
     }
     @PutMapping ("credit")
     public CompletableFuture<String> creditAccount(@RequestBody CreditAccountRequestDTO request){
-
         CompletableFuture<String> commandResponse = commandGateway.send(new CreditAccountCommand(
                 request.getAccountId(),
                 request.getAmount(),
