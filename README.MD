@@ -34,12 +34,12 @@
         <h5>- EventSourcingHandler</h5>
         <img src="./Images/Screenshot_14.png" alt="Screenshot_14.png" width="700" style="border: 2px solid black;"/>
         <h5>- Test (Postman)</h5>
-        <img src="./Images/Screenshot_17.png" alt="Screenshot_17.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_15.png" alt="Screenshot_15.png" width="700" style="border: 2px solid black;"/>
         <h5>- EventStore</h5>
-        <img src="./Images/Screenshot_18.png" alt="Screenshot_18.png" width="700" style="border: 2px solid black;"/>    
+        <img src="./Images/Screenshot_16.png" alt="Screenshot_16.png" width="700" style="border: 2px solid black;"/>    
         <h5>- EventStore (Controller)</h5>
-        <img src="./Images/Screenshot_20.png" alt="Screenshot_20.png" width="700" style="border: 2px solid black;"/>
-        <img src="./Images/Screenshot_21.png" alt="Screenshot_19.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_17.png" alt="Screenshot_17.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_18.png" alt="Screenshot_18.png" width="700" style="border: 2px solid black;"/>
         <h5>- AccountActivatedEvent & EventSourcingHandler</h5>
         <img src="./Images/Screenshot_22.png" alt="Screenshot_22.png" width="700" style="border: 2px solid black;"/>
         <img src="./Images/Screenshot_23.png" alt="Screenshot_23.png" width="700" style="border: 2px solid black;"/>
