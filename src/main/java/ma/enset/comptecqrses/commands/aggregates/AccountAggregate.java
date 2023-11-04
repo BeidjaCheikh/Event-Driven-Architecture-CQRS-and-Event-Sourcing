@@ -55,7 +55,6 @@ public class AccountAggregate {
                 command.getAmount(),
                 command.getCurrency()
         ));
-
     }
     //fuction devolution
     @EventSourcingHandler
