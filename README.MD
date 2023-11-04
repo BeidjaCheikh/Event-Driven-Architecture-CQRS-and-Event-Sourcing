@@ -2,14 +2,7 @@
 <h5>- Architecture</h5>
 <img src="./Images/Screenshot_1.png" alt="Architecture a implémenter" width="700" style="border: 2px solid black;"/>
 <h5>- Dependencies</h5>
-<table>
-    <tr>
-        <td><a href="https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web">Spring Web</a></td>
-        <td><a href="https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa">Spring Data JPA</a></td>
-        <td><a href="https://mvnrepository.com/artifact/org.axonframework/axon-spring-boot-starter">Axon Spring Boot Starter</a></td>
-        <td><a href="https://mvnrepository.com/artifact/mysql/mysql-connector-java">MySQL Driver</a></td>   
-    </tr>
-</table>
+
 <details>
     <summary>📝 Partie 1 - Ecriture <a href="https://github.com/ElyousfiMohamed/Event-Driven-Architecture-CQRS-and-Event-Sourcing/tree/master/compte-cqrs-es/src/main/java/com/example/comptecqrses" target="_blank">[Code Source]</a></summary>
     <p>
