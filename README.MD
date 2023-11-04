@@ -72,31 +72,26 @@
     <summary>📝 Partie 2 - Lecture <a href="https://github.com/BeidjaCheikh/Event-Driven-Architecture-CQRS-and-Event-Sourcing/tree/master/src/main/java/ma/enset/comptecqrses">[Code Source]</a></summary>
     <p>
         <h5>- Entity Account</h5>
-        <img src="./Images/Screenshot_39.png" alt="Screenshot_39.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_35.png" alt="Screenshot_35.png" width="700" style="border: 2px solid black;"/>
         <h5>- Entity OperationAccount</h5>
-        <img src="./Images/Screenshot_40.png" alt="Screenshot_40.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_36.png" alt="Screenshot_36.png" width="700" style="border: 2px solid black;"/>
         <h5>- Repository AccountRepository</h5>
-        <img src="./Images/Screenshot_41.png" alt="Screenshot_41.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_37.png" alt="Screenshot_37.png" width="700" style="border: 2px solid black;"/>
         <h5>- Repository OperationAccountRepository</h5>
-        <img src="./Images/Screenshot_42.png" alt="Screenshot_42.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_38.png" alt="Screenshot_38.png" width="700" style="border: 2px solid black;"/>
         <h5>- AccountServiceHandler (AccountCreatedEvent)</h5>
+        <img src="./Images/Screenshot_40.png" alt="Screenshot_40.png" width="700" style="border: 2px solid black;"/>
+        <h5>- AccountServiceHandler (AccountActivatedEvent, AccountDebitedEvent, AccountCreditedEvent)</h5>
+        <img src="./Images/Screenshot_41.png" alt="Screenshot_41.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_42.png" alt="Screenshot_42.png" width="700" style="border: 2px solid black;"/>
+        <h5>- Controlleur pour la lecture(AllAccounts)</h5>
         <img src="./Images/Screenshot_43.png" alt="Screenshot_43.png" width="700" style="border: 2px solid black;"/>
         <img src="./Images/Screenshot_44.png" alt="Screenshot_44.png" width="700" style="border: 2px solid black;"/>
         <img src="./Images/Screenshot_45.png" alt="Screenshot_45.png" width="700" style="border: 2px solid black;"/>
-        <h5>- AccountServiceHandler (AccountActivatedEvent, AccountDebitedEvent, AccountCreditedEvent)</h5>
-        <img src="./Images/Screenshot_52.png" alt="Screenshot_52.png" width="700" style="border: 2px solid black;"/>
-        <img src="./Images/Screenshot_51.png" alt="Screenshot_51.png" width="700" style="border: 2px solid black;"/>
-        <img src="./Images/Screenshot_50.png" alt="Screenshot_50.png" width="700" style="border: 2px solid black;"/>
-        <img src="./Images/Screenshot_49.png" alt="Screenshot_49.png" width="700" style="border: 2px solid black;"/>
-        <img src="./Images/Screenshot_53.png" alt="Screenshot_53.png" width="700" style="border: 2px solid black;"/>
-        <h5>- Controlleur pour la lecture(AllAccounts)</h5>
-        <img src="./Images/Screenshot_54.png" alt="Screenshot_54.png" width="700" style="border: 2px solid black;"/>
-        <img src="./Images/Screenshot_55.png" alt="Screenshot_55.png" width="700" style="border: 2px solid black;"/>
-        <img src="./Images/Screenshot_56.png" alt="Screenshot_56.png" width="700" style="border: 2px solid black;"/>
         <h5>- Controlleur pour la lecture(getAccountById)</h5>
-        <img src="./Images/Screenshot_57.png" alt="Screenshot_57.png" width="700" style="border: 2px solid black;"/>
-        <img src="./Images/Screenshot_58.png" alt="Screenshot_58.png" width="700" style="border: 2px solid black;"/>
-        <img src="./Images/Screenshot_59.png" alt="Screenshot_59.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_46.png" alt="Screenshot_46.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_47.png" alt="Screenshot_47.png" width="700" style="border: 2px solid black;"/>
+        <img src="./Images/Screenshot_48.png" alt="Screenshot_48.png" width="700" style="border: 2px solid black;"/>
     </p>
 </details>
 

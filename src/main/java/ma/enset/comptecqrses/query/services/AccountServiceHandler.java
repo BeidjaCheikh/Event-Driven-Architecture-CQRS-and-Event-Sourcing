@@ -46,8 +46,7 @@ public class AccountServiceHandler {
         System.out.println("AccountActivatedEvent received");
         Account account = accountRepository.findById(event.getId()).get();
         account.setStatus(event.getStatus());
-        accountRepository.save(account);
-    }
+        accountRepository.save(account);}
     @EventHandler
     public void on(AccountCreditedEvent event) {
         System.out.println("****************************");
@@ -79,10 +78,12 @@ public class AccountServiceHandler {
     }
     @QueryHandler
     public List<Account>on(GetAllAccountsQuery query){
-    return accountRepository.findAll();
+
+        return accountRepository.findAll();
     }
     @QueryHandler
     public Account on(GetAccountByIdQuery query){
+
         return accountRepository.findById(query.getId()).get();
     }
 

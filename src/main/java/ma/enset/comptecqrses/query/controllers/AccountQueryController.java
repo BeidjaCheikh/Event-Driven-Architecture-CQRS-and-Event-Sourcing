@@ -22,7 +22,8 @@ public class AccountQueryController {
     private QueryGateway queryGateway;
     @GetMapping("/allAccounts")
     public List<Account>accountList(){
-       List<Account> response= queryGateway.query(new GetAllAccountsQuery(),ResponseTypes.multipleInstancesOf(Account.class)).join();
+       List<Account> response= queryGateway.query(new GetAllAccountsQuery(),
+               ResponseTypes.multipleInstancesOf(Account.class)).join();
     return response;
     }
     @GetMapping("/byId/{id}")
@@ -30,3 +31,4 @@ public class AccountQueryController {
         return queryGateway.query(new GetAccountByIdQuery(id),ResponseTypes.instanceOf(Account.class)).join();
 }
 }
+
